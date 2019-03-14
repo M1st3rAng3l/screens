@@ -1,0 +1,108 @@
+
+.cuadro{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.subcuadro1{
+width: 50px;
+height: 50px;
+background-color: darkblue;
+}
+
+.subcuadro2{
+    width: 50px;
+    height: 50px;
+    background-color:darkblue;
+   float: right;
+}
+
+.rombo{
+    margin:auto;
+    width:0; 
+    height:0; 
+    border: 100px solid transparent; 
+    border-bottom-color: lightblue; 
+    position:relative; 
+    top:-100px;
+  }
+  .rombo:after {
+ 
+  content:''; 
+  position: absolute; 
+  left:-100px;
+  top:100px;
+  width:0;
+  height:0;
+  border:100px solid transparent; 
+  border-top-color: darkblue;
+      }
+
+.hexagono {
+
+width:200px;
+ height:110px; 
+ background: lightblue;
+ position:relative;
+}
+
+.hexagono:before {
+content:"";
+ position:absolute; 
+ top:-50px; 
+ left:0; 
+ width:0; 
+ height:0; 
+border-left:100px solid transparent;
+ border-right:100px solid transparent;
+border-bottom:50px solid lightblue;
+} 
+        
+.hexagono:after {
+content:""; 
+position:absolute; 
+bottom:-50px ; 
+left:0; 
+width:0;
+height:0; 
+border-left:100px solid transparent; 
+border-right:100px solid transparent; 
+border-top:50px solid  lightblue;}
+
+.circulo {
+    width:0px;
+     height:0px;
+      border-right:85px solid lightblue;
+       border-top:85px solid blue; 
+       border-left:85px solid lightblue; 
+       border-bottom:85px solid lightblue; 
+       border-top-left-radius:85px; 
+       border-top-right-radius:85px; 
+       border-bottom-left-radius:85px; 
+       border-bottom-right-radius:85px;
+       transform: rotate(45deg);
+
+}
+
+#hexagono3 {
+    height: 20em;
+    margin: -3em 0;
+    overflow: hidden;
+    transform: rotate(120deg);
+    visibility: hidden;
+    width: 10em;
+  }
+  #hexagono3-1 {
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(-60deg);
+    width: 100%;
+  }
+  #hexagono3-2 {
+    height: 100%;
+    transform: rotate(-60deg); 
+    visibility: visible ;
+    width: 100%;
+  }
+ 
