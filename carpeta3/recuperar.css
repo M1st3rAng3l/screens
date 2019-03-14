@@ -1,3 +1,7 @@
+:root{
+    --color1:#00bdfe;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -19,23 +23,39 @@ body{
 .box01{
     display: flex;
 }
+
+.img1{
+    width: 50px;;
+    height: 50px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 5px;
+
+}
  .img2{
      width: 50px;
      height: 50px;
-     border: 10px solid lightblue;
+     border: 10px solid var(--color1);
+     border-radius: 5px;
  }
 .title1{
-    height: 50px;
     background: black;
     color:white;
-    text-align: left;
-    margin: auto;
-    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
 }
+
 .text1, .text2{
     text-align: left;
     margin-left: 30px;
 }
+
 input[type="text"]{
     color: gray;
     height: 50px;
@@ -53,4 +73,8 @@ input[type="submit"]{
     cursor: pointer;
     border: 5px solid lightblue;
     border-radius: 5px;
+}
+
+h3{
+
 }
