@@ -4,21 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gray;
-}
-
-.box000{
-    margin: auto;
-    height: 1000px;
-    width: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-.img1{
-    height: 800px;
-    width: 450px;
+    background-image: url(screens/16.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30%;
 }
