@@ -18,7 +18,7 @@ body{
     background:gainsboro;
 }
 .box-000{
-    height: 800px;
+    height: 700px;
     width: 500px;
     background-color: gray;
     margin: auto;
@@ -29,7 +29,7 @@ body{
     width: 500px;
     background-color: var(--color2);
     color:white;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
