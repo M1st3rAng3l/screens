@@ -57,3 +57,27 @@ body{
     color: var(--color1);
     padding-left: 75px;
 }
+
+.box-image{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    background: red;
+}
+.list-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    margin: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+img{
+width: 150p;
+height: 75px;;
+}
