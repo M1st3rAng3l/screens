@@ -2,6 +2,8 @@
     --color1:#00dbf3;
     --color2:#2a2e43;
     --color3:white;
+    --color4:#f6f6f6;
+    --color5:#d8d8d8;
 }
 
 *{
@@ -19,10 +21,11 @@ body{
     width: 450px;
     height: 700px;
     text-align: center;
-    background-color: var(--color3);
+    background-color: var(--color4);
     margin: auto;
     margin-top: 20px;
 }
+
 .box001{
     display: flex;
     flex-direction: row-reverse;
@@ -35,18 +38,11 @@ body{
 
 .title0{
     text-align: left;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 20px;
     font-size: 20px;
-    color:var(--color1);
-}
-
-.img1{
-    width: 45px;;
-    height: 45px;
-    padding-top: 10px;
-    padding-left:15px;
+    color:var(--color5);
 }
 
 .next{
@@ -62,12 +58,12 @@ body{
     width: 450px;
     height: auto;
     margin: auto;
-    background: red;
 }
 .list-image{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 5px;
 }
 
 li{
@@ -78,6 +74,17 @@ li{
 }
 
 img{
-width: 150p;
-height: 75px;;
+width: 77px;
+height: 77px;;
+}
+
+.next{
+    margin: auto;
+    padding-bottom: 15px;
+}
+.img0{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    padding-bottom: 10px;
 }
