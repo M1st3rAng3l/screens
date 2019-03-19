@@ -81,28 +81,8 @@ border-top:50px solid  lightblue;}
        border-top-right-radius:85px; 
        border-bottom-left-radius:85px; 
        border-bottom-right-radius:85px;
-       transform: rotate(45deg);
+       transform: rotate(85deg);
 
 }
 
-#hexagono3 {
-    height: 20em;
-    margin: -3em 0;
-    overflow: hidden;
-    transform: rotate(120deg);
-    visibility: hidden;
-    width: 10em;
-  }
-  #hexagono3-1 {
-    height: 100%;
-    overflow: hidden;
-    transform: rotate(-60deg);
-    width: 100%;
-  }
-  #hexagono3-2 {
-    height: 100%;
-    transform: rotate(-60deg); 
-    visibility: visible ;
-    width: 100%;
-  }
  
