@@ -10,10 +10,39 @@ body{
 }
 
 .boxAA{
-    width: 450px;
-    height: 1050px;
-    text-align: center;
-    background-color:white;
     margin: auto;
+    width: 500px;
+    height: 1100px;
+    background-color:whitesmoke;
     margin-top: 20px;
 }
+
+img{
+    height: 500px;
+    width: 500px;
+}
+
+.boxBB{
+    margin: auto;
+
+}
+.play {
+    margin: auto;
+    width:100px;
+    height:100px;
+    background-color:white;
+    border-radius: 50%;
+
+} 
+
+.play:after{
+    content: "";
+    position: absolute;
+    width:0;
+    height:0; 
+    border-top:25px solid transparent; 
+    border-left:50px solid blue;
+    border-bottom:25px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+    } 
