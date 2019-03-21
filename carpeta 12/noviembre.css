@@ -19,8 +19,8 @@ body{
 }
 
 .box00{
-    width: 450px;
-    height: 1350px;
+    width: 490px;
+    height: 1000px;
     background-color: var(--color6);
     margin: auto;
     margin-top: 20px;
@@ -60,12 +60,13 @@ body{
 
 table{
     margin: 0 auto;
+    background-color:white;
 }
 
 th, td{
     border:none;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     text-align: center;
 }
 
@@ -82,6 +83,7 @@ td{
 .box02{
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 .sub-box1, .sub-box2{
     border: 1px solid black;
@@ -102,26 +104,46 @@ td{
 }
 .sub-box3{
     height: 90px;
-    width: 80px;
+    width: 90px;
     border: 1px solid black;
     text-align: center;
+    padding-top: 20px;
+    border-left: 5px solid red;
+    background-color: white;
 }
 
 .sub-box4{
     height: 90px;
-    width: 280px;
-    border: 5px solid black;
+    width: 360px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
 }
 
 .sub-box5{
     height: 90px;
-    width: 80px;
+    width: 90px;
     border: 1px solid black;
     text-align: center;
+    padding-top: 20px;
+    border-left: 5px solid limegreen;;
+    background-color: white;
 }
 
 .sub-box6{
     height: 90px;
-    width: 280px;
-    border: 5px solid black;
+    width: 360px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.img2, .img3{
+    margin: 0 auto;
+    height: 30px;
+    width: 40px;
+    padding-left: 15px;
+    margin-left: 60px;
 }
