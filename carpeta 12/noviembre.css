@@ -20,7 +20,7 @@ body{
 
 .box00{
     width: 450px;
-    height: 750px;
+    height: 1350px;
     background-color: var(--color6);
     margin: auto;
     margin-top: 20px;
@@ -29,40 +29,99 @@ body{
 .box01{
     display: flex;
     flex-direction: row;
-    background-color: var(--color2);
+    background-color: var(--color3);
     padding-top: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: none;
 }
 
 .title0{
     font-size:20px;
+    font-weight: bold;
     text-align: left;
-    color: var(--color3);
-    padding-bottom: 20px;
+    color: black;
+    padding-bottom: 15px;
     padding-left: 10px;
 }
 
-img{
-    margin: auto;
+.img1{
+    margin: 0 auto;
     height: 30px;
     width: 30px;
+    margin-right: 20px;
 }
 
 .img0{
-    height: 35px;
-    width: 35px;
-    padding-bottom: 10px;
+    margin:0 auto;
+    height: 20px;
+    width: 60px;
     padding-top: 5px;
-    padding-left: 15px;
+    padding-left: 35px;
 }
 
 table{
-    margin: auto;
+    margin: 0 auto;
 }
 
 th, td{
-    border:2px solid black;
+    border:none;
     height: 60px;
     width: 60px;
     text-align: center;
+}
+
+th, .other{
+    font-weight: lighter;
+    color: #a9a9a9;
+}
+
+td{
+    font-weight: bolder;
+}
+
+
+.box02{
+    display: flex;
+    justify-content: center;
+}
+.sub-box1, .sub-box2{
+    border: 1px solid black;
+    height: 40px;
+    width: 240px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sub-box2{
+    border-bottom: 5px solid rgba(123, 174, 225, 0.442);
+}
+
+.box03, .box04{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.sub-box3{
+    height: 90px;
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sub-box4{
+    height: 90px;
+    width: 280px;
+    border: 5px solid black;
+}
+
+.sub-box5{
+    height: 90px;
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sub-box6{
+    height: 90px;
+    width: 280px;
+    border: 5px solid black;
 }
