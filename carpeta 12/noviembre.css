@@ -20,7 +20,7 @@ body{
 
 .box00{
     width: 490px;
-    height: 1000px;
+    height: 950px;
     background-color: var(--color6);
     margin: auto;
     margin-top: 20px;
@@ -140,10 +140,31 @@ td{
     background-color: white;
 }
 
-.img2, .img3{
+.img2{
     margin: 0 auto;
     height: 30px;
     width: 40px;
     padding-left: 15px;
     margin-left: 60px;
+}
+
+.box05{
+    display: flex;
+    justify-content:space-around;
+}
+
+h3{
+  text-align: center; 
+}
+
+.img3{
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 40px;
+    width: 40px;
+}
+
+.imagen{
+height: 120px;
+width: 120px;
 }
