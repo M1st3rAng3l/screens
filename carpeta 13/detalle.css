@@ -31,7 +31,7 @@ body{
     flex-direction: row;
     background-color: var(--color3);
     padding-top: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 .title0{
@@ -40,12 +40,12 @@ body{
     padding-left: 20px;
 
 }
+
 .img-00{
     height: 20px;
     width: 20px;
     margin-left: 20px;
     margin-top: 10px;
-    
 }
 
 .img-01{
@@ -67,6 +67,7 @@ body{
     height: 225px;
     width: 450px;
 }
+
 .box02{
     display: flex;
     justify-content: center;
@@ -74,6 +75,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .sub-box1{
     height: 90px;
     width: 90px;
@@ -83,6 +85,7 @@ body{
     border-left: 5px solid red;
     background-color: white;
 }
+
 .sub-box2{
     height: 90px;
     width: 360px;
@@ -92,11 +95,82 @@ body{
     background-color: white;
 }
 
-.img-04{
-    margin: 0 auto;
-    height: 30px;
-    width: 40px;
-    padding-left: 15px;
-    margin-left: 90px;
+.img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    
+}
+.box03{
+    margin-left: 25px;
 }
 
+.boxx{
+    height: 80px;
+    width: 400px;
+    border: 0.5px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.txt0{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.txt1{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: var(--color5);
+}
+
+.txt2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: var(--color5);
+}
+
+.txt3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: var(--color5);
+}
+
+.txt4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: var(--color5);
+}
+
+.txt5{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 140px;
+    margin-top: 20px;
+    color: var(--color5);
+}
+
+.txt6{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: var(--color5);
+}
