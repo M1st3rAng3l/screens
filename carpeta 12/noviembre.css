@@ -20,7 +20,7 @@ body{
 
 .box00{
     width: 490px;
-    height: 950px;
+    height: 1275px;
     background-color: var(--color6);
     margin: auto;
     margin-top: 20px;
@@ -121,6 +121,30 @@ td{
     background-color: white;
 }
 
+.sub-box5-5{
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+    border-left: 5px solid red;
+    background-color: white;
+
+}
+
+.sub-box3-3{
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+    border-left: 5px solid limegreen;;
+    background-color: white;
+ 
+}
+
+
+
 .sub-box5{
     height: 90px;
     width: 90px;
@@ -145,7 +169,7 @@ td{
     height: 30px;
     width: 40px;
     padding-left: 15px;
-    margin-left: 60px;
+    margin-left: 90px;
 }
 
 .box05{
