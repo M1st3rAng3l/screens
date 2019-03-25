@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FORMULARIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="formulario.css">
+</head>
+<body>
+    <div>
+        <h1>FORMULARIO</h1>
+    <form>
+    <fieldset>
+            <legend>Informacion del Producto</legend>
+        <p><label>Folio <input type="text" id="folio"placeholder="Ingresa el Folio"/></label></p>
+        <p><label>Detalle<input type="text" placeholder="Ingresala Descripción del prodcuto"/></label></p>
+        <p><label>Cantidad<input type="number" placeholder="Ingresa el Número de los Productos"></label></p>
+        <p><label>Total<input type="text" placeholder="Ingresa eL precio del producto"/></label></p>
+        <p><label>Anticipado<input type="text" placeholder="INgresa la Cantidad Depositada"/></label></p>
+        <p><label>Restante<input type="text" placeholder="Ingresa la Cantidad Faltante"/></label></p>
+        <p><label>Código<input type="text" id="codigo" placeholder="Ingresa el Número único del producto"></label></p>
+        </fieldset>
+        <br>
+    <fieldset>
+        <legend>Información personal</legend>
+        <p><label>Nombre Completo: <input type="text" name="nombre" placeholder="Ingresa el nombre completo"></label></p>
+        <p><label>Teléfono: <input type="tel" name="telefono" placeholder="Ingresa el teléfono"></label></p>
+        <p><label>Correo Electronico: <input type="email" name="email" placeholder="Ingresa  el correo Electronico"></label></p>
+    </fieldset>
+        <br>
+
+    <fieldset>
+     <legend>Tipo de Pago: </legend>
+        <p><input type="radio" name="tipoPago" value="efectivo">Efectivo</p>
+        <p><input type="radio" name="tipoPago" value="tarjeta">Tarjeta de Crédito<p>
+        </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>tipo de Operación</legend>
+        <p><input type="radio" name="tipoOperacion" value="venta">Venta</p>
+        <p><input type="radio" name="tipoOperacion" value="garantia">Garantia</p>
+    </fieldset>
+    <br>
+            <p class="date1">FECHA Y HORA ACTUAL:  <br>
+            <script src="fechaYhora.js"></script>
+        </p>
+        <br>
+        <input type="submit" value="Enviar Formulario">
+        <input type="reset" value="Reiniciar Formulario">
+    </form>
+    </div>
+</body>
+</html>

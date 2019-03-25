@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: Arial;
+}
+
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"]{
+    width: 230px;
+}

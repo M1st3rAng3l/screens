@@ -1,0 +1,17 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 250px;
+    height: 175px;
+    border: 1px solid black;
+    background-color: transparent;
+    text-align: center;
+}
+
+.rgb{
+    margin: auto;
+    font-family: sans-serif;
+}
