@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .mainBox{
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+.item1 {
+    grid-column: 1 / 2;
+
+  }
+  
+.item2{
+    grid-column: 2;
+  grid-row: 1 / span 2;
+  
+  }
+  
+.item3 {
+    grid-column: 4/  4;
+    grid-row: 2/ 4;
+  }
+
+.item4{
+      background-color: yellow;
+  }
+
+.item5{
+    background-color: yellow;
+}
+
+.item6{
+    background-color: yellow;
+}
+
+.item7{
+    background-color: yellow;
+}
+
+.item8{
+    background-color: yellow;
+}

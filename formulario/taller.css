@@ -9,14 +9,14 @@
     --color2:blue;
     --color3:gray;
     --color4:white;
-    --CelTam:calc(600px / 5);
+    --CelTam:calc(800px / 5);
 
 }
 h1{
     text-align: center;
 }
 
-.small-box1{
+.data{
     width: var(--CelTam);
     background-color: var(--color3);
     color: var(--color1);
@@ -25,35 +25,9 @@ h1{
     border-radius: 5px;
 }
 
-.small-box2{
-    width: var(--CelTam);
-    background-color: var(--color3);
-    color: var(--color1);
-    padding: 15px;
-    border: 2px solid var(--color2);
-    border-radius: 5px;
-}
 
-.small-box3{
+.box{
     width: calc(var(--CelTam) * 2);
-    background-color: var(--color3);
-    color: var(--color1);
-    padding: 15px;
-    border: 2px solid var(--color2);
-    border-radius: 5px;
-}
-
-.small-box4{
-    width: var(--CelTam);
-    background-color: var(--color3);
-    color: var(--color1);
-    padding: 15px;
-    border: 2px solid var(--color2);
-    border-radius: 5px;
-}
-
-.small-box5{
-    width: var(--CelTam);
     background-color: var(--color3);
     color: var(--color1);
     padding: 15px;

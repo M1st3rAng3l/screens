@@ -27,10 +27,11 @@
     </fieldset>
         <br>
     <fieldset>
-        <legend>Información Personal</legend>
+        <legend>Información del Cliente</legend>
         <p><label>Nombre Completo: <input type="text" id="name"name="nombre" placeholder="Ingresa el nombre completo"></label></p>
         <p><label>Teléfono: <input type="tel"  id="phone"name="telefono" placeholder="Ingresa el teléfono"></label></p>
-        <p><label>Correo Electronico: <input type="email" id="email" name="email" placeholder="Ingresa el correo Electronico"></label></p>
+        <p><label>Dirección <input type="text"  id="address"name="direccion" placeholder="Ingresa la dirección"></label></p>
+        <p><label>Correo Electrónico: <input type="email" id="email" name="email" placeholder="Ingresa el correo Electrónico"></label></p>
     </fieldset>
         <br>
 
@@ -49,18 +50,18 @@
     <br>
             <p class="date1">FECHA Y HORA ACTUAL:  <br>
                 <script src="fechaYhora.js"></script>
+                <div id="hoy"></div>
 
             </p>
             <br>
             <p>Fecha de Entrega: <br>
-        <input id="entrega" type="datetime-local">
+        <input id="entrega" type="date">
         </p>
         <br>
         <a href="taller.html" type="button" onclick="add()">Enviar Formulario</a>
         <br>
         <input type="reset" value="Reiniciar Formulario">
 
-        <div id="reloj"></div>
     </form>
     </div>
 </body>
