@@ -2,13 +2,24 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+body{
+    background-color:grey;
+}
 h1{
     text-align: center;
 }
 p{
     font-family: Arial;
+    color: rebeccapurple;
 }
 
 input[type="text"], input[type="number"], input[type="tel"], input[type="email"]{
     width: 230px;
+}
+
+a{
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: black;
+    
 }

@@ -9,46 +9,58 @@
 </head>
 <body>
     <div>
+    
         <h1>FORMULARIO</h1>
     <form>
     <fieldset>
-            <legend>Informacion del Producto</legend>
+        <legend>Informacion del Producto</legend>
         <p><label>Folio <input type="text" id="folio"placeholder="Ingresa el Folio"/></label></p>
-        <p><label>Detalle<input type="text" placeholder="Ingresala Descripción del prodcuto"/></label></p>
-        <p><label>Cantidad<input type="number" placeholder="Ingresa el Número de los Productos"></label></p>
-        <p><label>Total<input type="text" placeholder="Ingresa eL precio del producto"/></label></p>
-        <p><label>Anticipado<input type="text" placeholder="INgresa la Cantidad Depositada"/></label></p>
-        <p><label>Restante<input type="text" placeholder="Ingresa la Cantidad Faltante"/></label></p>
-        <p><label>Código<input type="text" id="codigo" placeholder="Ingresa el Número único del producto"></label></p>
-        </fieldset>
+        <p><label>Detalle <input type="text" id="detalle" placeholder="Ingresala Descripción del prodcuto"/></label></p>
+        <p><label>Material <input type="text" id="material" placeholder="Ingrese los materiales"></label></p>
+        <p><label>Tratamiento <input type="text" id="tratamiento" placeholder="Ingrese el tratamiento"></label></p>
+        <p><label>Graduación <input type="text" id="graduacion" placeholder="Ingrese la graduación"></label></p>
+        <p><label>Cantidad <input type="number" id="cantidad" placeholder="Ingresa el Número de los Productos"></label></p>
+        <p><label>Total <input type="text" id="total" placeholder="Ingresa eL precio del producto"/></label></p>
+        <p><label>Anticipado <input type="text" id="anticipado" placeholder="INgresa la Cantidad Depositada"/></label></p>
+        <p><label>Restante <input type="text" id="restante"placeholder="Ingresa la Cantidad Faltante"/></label></p>
+        <p><label>Código <input type="text" id="codigo" placeholder="Ingresa el Número único del producto"></label></p>
+    </fieldset>
         <br>
     <fieldset>
-        <legend>Información personal</legend>
-        <p><label>Nombre Completo: <input type="text" name="nombre" placeholder="Ingresa el nombre completo"></label></p>
-        <p><label>Teléfono: <input type="tel" name="telefono" placeholder="Ingresa el teléfono"></label></p>
-        <p><label>Correo Electronico: <input type="email" name="email" placeholder="Ingresa  el correo Electronico"></label></p>
+        <legend>Información Personal</legend>
+        <p><label>Nombre Completo: <input type="text" id="name"name="nombre" placeholder="Ingresa el nombre completo"></label></p>
+        <p><label>Teléfono: <input type="tel"  id="phone"name="telefono" placeholder="Ingresa el teléfono"></label></p>
+        <p><label>Correo Electronico: <input type="email" id="email" name="email" placeholder="Ingresa el correo Electronico"></label></p>
     </fieldset>
         <br>
 
     <fieldset>
-     <legend>Tipo de Pago: </legend>
-        <p><input type="radio" name="tipoPago" value="efectivo">Efectivo</p>
-        <p><input type="radio" name="tipoPago" value="tarjeta">Tarjeta de Crédito<p>
-        </fieldset>
+    <legend>Tipo de Pago</legend>
+        <p><input type="radio" name="tipoPago" value="efectivo" id="cash" checked>Efectivo</p>
+        <p><input type="radio" name="tipoPago" value="tarjeta" id="credit">Tarjeta de Crédito<p>
+    </fieldset>
     <br>
 
     <fieldset>
-        <legend>tipo de Operación</legend>
-        <p><input type="radio" name="tipoOperacion" value="venta">Venta</p>
-        <p><input type="radio" name="tipoOperacion" value="garantia">Garantia</p>
+        <legend>Tipo de Operación</legend>
+        <p><input type="radio" name="tipoOperacion" value="venta" id="sale" checked>Venta</p>
+        <p><input type="radio" name="tipoOperacion" value="garantia" id="warranty">Garantia</p>
     </fieldset>
     <br>
             <p class="date1">FECHA Y HORA ACTUAL:  <br>
-            <script src="fechaYhora.js"></script>
+                <script src="fechaYhora.js"></script>
+
+            </p>
+            <br>
+            <p>Fecha de Entrega: <br>
+        <input id="entrega" type="datetime-local">
         </p>
         <br>
-        <input type="submit" value="Enviar Formulario">
+        <a href="taller.html" type="button" onclick="add()">Enviar Formulario</a>
+        <br>
         <input type="reset" value="Reiniciar Formulario">
+
+        <div id="reloj"></div>
     </form>
     </div>
 </body>
