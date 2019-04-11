@@ -1,10 +1,6 @@
-function addToken(bs, user, token){
+function addToken(bd, user, token){
     let now = newDate();
-    return{...bd[user]
-    
-    }
-
-}
+    return{...bd[user]}}
 
     function go(){
         let now = newDate();

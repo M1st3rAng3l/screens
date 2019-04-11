@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:rgb(123, 41, 41);
+    --color2:blue;
+    --color3:rgb(196, 28, 98);
+    --color4:yellow;
+}
+
+body{
+    background-image: url(fiesta2.jpg);
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: var(--color4);   
+}
+
+
+h1{
+    text-align: center;
+    color:var(--color1);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
