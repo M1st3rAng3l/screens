@@ -12,11 +12,10 @@
 }
 
 body{
-    background-image: url(regalos.html);
+    background-image: url(regalos.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-    background-color: var(--color3);   
+    background-position: center; 
 }
 
 .mainBox{
@@ -31,4 +30,9 @@ h1{
     color:var(--color1);
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+.img1, .img2, .img3, .img4, .img5{
+    height: 200px;
+    width: 200px;
 }
